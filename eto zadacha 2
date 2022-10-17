@@ -1,0 +1,15 @@
+// радиус вписанной окружности
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+using namespace std;
+ int main() {
+	double a,c,b;
+	cout<<"введите первый катет";
+    cin>>a;
+    cout<<"введите второй катет";
+    cin>>b;
+	c=sqrt(b*b+a*a); 
+	cout<<" " << (a+b-c)/2 << endl;
+	return 0;
+}
