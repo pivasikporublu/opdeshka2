@@ -1,0 +1,15 @@
+// тут вычислить угол между стрелками 
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+using namespace std;
+ int main() {
+    int h, m, d;
+	cout<<"вместо буквенных обозначений должны стоять конкретные целые числа";
+	cout<<"введите часы";
+    cin>>h;
+    cout<<"введите минуты";
+    cin>>m;
+	cout<<"Угол между стрелками:°C" << (h/m)/180;
+	return 0;
+}
